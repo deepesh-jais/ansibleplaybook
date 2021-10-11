@@ -1,0 +1,10 @@
+
+---
+- hosts: mldev2
+  user: root
+  become: yes
+  connection: ssh
+  gather_facts: yes
+  tasks:
+          -  name: install apache2
+             action: apt-get name=apache2 state=installed
