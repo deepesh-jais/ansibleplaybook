@@ -1,6 +1,6 @@
 
 ---
-- hosts: localhost
+- hosts: mldev2
   user: root
   become: yes
   connection: ssh
